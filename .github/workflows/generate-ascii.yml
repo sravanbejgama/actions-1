@@ -9,12 +9,6 @@ jobs:
             - name: Checkout Repo
               uses: actions/checkout@v4
 
-            #- name: List and Read file
-            #  run: |
-            #    echo "My first Github Actions Job"
-            #    ls -ltra
-            #    cat README.md
-
             - name: Install Cowsay Program
               run: sudo apt-get install cowsay -y
 
